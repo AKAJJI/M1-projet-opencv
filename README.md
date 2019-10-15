@@ -3,7 +3,7 @@ Ce projet sert a detecter les hooligans qui sont bannis des terrains qui essaien
 l'architecture de l'application web est :
 
             ---Home.php------>Entrainer le modele(ca permet d'entrainer le modele faces-train.py avec les images qu'on insert dans le dossier hooligans.
-            |         |------>Identifier les hooligans(actuellement j'ai pas trouver comment faire marcher le script python faces.py sur le web).
+            |         |------>Identifier les hooligans(actuellement j'ai pas trouver une methode pour faire marcher le script python faces.py sur le web , car le script marche mais le traitement d'image ne peut se faire sur un serveur web , il ne peut qu etre executer sur la machine{si on essaie les script python seul ca detecte les visages car c'est traité au sein de la machine et non usr le serveur web}).
             |
             |
             |--Insert the bad guy.php---> pout inserer les images des hooligans.
